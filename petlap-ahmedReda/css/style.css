@@ -1,0 +1,533 @@
+body{
+    text-transform: capitalize;
+    font-family: sans-serif
+}
+h3{
+    margin-bottom: 20px;
+    font-weight: 500
+}
+ul{
+  list-style: none
+}
+input,select{
+    border: 1.5px solid #acacac;
+    border-radius: 3px;
+    padding: 10px 12px;
+    margin-bottom: 20px
+
+}
+
+input[type="text"],input[type="number"]:nth-last-of-type(2){
+    width: 78%;
+    max-width: 80%;
+    margin-bottom: 20px
+}
+.phone input[type="number"]{
+  width: 78%;
+}
+.divider{
+    margin-bottom: 20px;
+}
+.divided input{
+    width: 25.5%
+}
+
+.divided select{
+    width: 25.5%
+}
+
+input[type="email"]{
+    width: 78%;
+    margin-bottom: 0
+}
+input[type="email"]{
+    width: 78%;
+    margin-bottom: 0
+}
+input[type="checkbox"]{
+    margin-bottom: 0
+}
+
+p{
+    color: #7a7a7a
+}
+.myNav .brandPic{
+    float: left;
+}
+.myNav img{
+  height: 42px;
+}
+.myContainer{
+    color: #000;
+    text-decoration: none;
+    max-width: 100%;
+    padding: 0 10%
+}
+.myNav .set{
+    padding: 2% 0
+}
+
+.myHr{
+    width: 100%;
+    height: 2.2px;
+    background-color: #d5d5d5;
+}
+
+.myForm .myForm-holder .shoppingAddress .name >input{
+  width: 38%;
+  margin-right: 7px;
+}
+/**************************************************************/
+.payment .payment-holder .first-section{
+    margin-bottom: 20px;
+    width: 56%;
+    float: left
+}
+.payment .payment-holder .first-section p{
+    margin: 25px 0
+}
+.payment .payment-holder .second-section{
+    margin-bottom: 20px;
+    width: 44%;
+    float: left;
+}
+
+.payment .payment-holder .paypal-button {
+    background-color: #ffcb51;
+    width: 192px;
+    height: 45px;
+    padding: 10px 16px;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px
+}
+.payment .payment-holder .paypal-button img{
+    height: 25px;
+}
+.payment .payment-holder .firstHr{
+    width: 40%;
+    height: 2px;
+    background-color: #333;
+    display: flex;
+    float: left;
+}
+.payment .payment-holder .secondHr{
+    width: 40%;
+    height: 2px;
+    background-color: #333;
+    display: flex;
+    float: right;
+}
+
+.payment .payment-holder hr{
+    display: inline-block;
+    width: 34.5%;
+    margin: 0 5px;
+    background-color: #eee
+}
+.payment .payment-holder .orSpan{
+    padding: 0 1%;
+    color: #7a7a7a
+}
+
+.payment .payment-holder .myContainer .first-section .last .link{
+    float: left;
+    margin-top: 11px;
+    margin-right: 4%;
+    margin-bottom: 20px
+}
+.payment .payment-holder .myContainer .first-section .last .SecondLink{
+  margin-left: 21%;
+  display: none
+}
+
+.payment .payment-holder .myContainer .first-section .last .link a,
+.payment .payment-holder .myContainer .first-section .last .SecondLink a
+{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.payment .payment-holder .myContainer .first-section .last .button input[type="submit"]{
+    background-color: #0069D9;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 17px 37px;
+}
+.payment .payment-holder .myContainer .first-section .last .button{
+    float: left;
+}
+
+.payment .payment-holder .myContainer .second-section  {
+    background-color: #eee;
+    margin-top: 20px;
+    padding: 0 0 24% 0;
+}
+
+.payment .payment-holder .myContainer .second-section .box  .img{
+    float: left;
+    margin: 17px 7px 5px 5px;
+}
+
+.payment .payment-holder .myContainer .second-section .box  img{
+
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    
+}
+
+.payment .payment-holder .myContainer .second-section .box  {
+    padding-left: 15px
+}
+
+.payment .payment-holder .myContainer .second-section .box  .discription {
+  line-height: 84px;
+    float: left;
+}
+
+.payment .payment-holder .myContainer .second-section .box  .price {
+    float: right;
+    line-height: 84px;
+    margin-right: 20px;
+}
+
+.payment .payment-holder .myContainer .second-section .box  .thirdBox .img {
+    float: left;
+}
+.payment .payment-holder .myContainer .second-section .box  .thirdBox .img p{
+    margin: 0;
+}
+.payment .payment-holder .myContainer .second-section .box  .thirdBox .price {
+    float: right;
+}
+.payment .payment-holder .myContainer .second-section .box  .thirdBox .price span{
+    display: block
+}
+.payment .payment-holder .myContainer .second-section .box  .thirdBox .freePrice{
+  float: right;
+  line-height: 1.7;
+  margin-right: 20px;
+  margin-top: 2%
+
+}
+
+.payment .payment-holder .myContainer .second-section .box  .foutrhBox .img{
+    float: left;
+    line-height: 1.7;
+}
+.payment .payment-holder .myContainer .second-section .box  .foutrhBox .img p{
+    margin: 0;
+}
+
+.payment .payment-holder .myContainer .second-section .box  .foutrhBox .totalPrice{
+  float: right;
+  margin-right: 20px;
+  line-height: 45px;
+  margin-top: 2%;
+  font-weight: bold;
+  font-size: 25px
+}
+.payment .payment-holder .myContainer .second-section .box .lastP{
+    font-size: 19px;
+    margin-left: 5px;
+    text-transform: lowercase;
+    padding-top: 15px;
+}
+
+.payment .payment-holder .myContainer .second-section .box .lastP span{
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase
+}
+
+
+/****************************************************/
+.emailForm .container{
+    margin-top: 0;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.7;
+    padding-right: 5px
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.phone .container {
+    margin-top: -20px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.7;
+    padding-right: 5px
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #b4b1b1;
+  }
+  
+  /* On mouse-over, add a grey background color */
+
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #0069D9;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  /**********************footer******************************/
+footer{
+  background-color: #000;
+  padding:3% 0;
+  text-align: center;
+  position: relative;;
+  margin: 0 auto;
+  text-transform: uppercase
+}
+footer .myContaineer{
+  padding: 0 29%;
+  color: #fff
+}
+footer .links , footer .social{
+  color: #fff;
+ 
+}
+footer .links a,footer .links a:hover{
+  color: #fff;
+  text-decoration: none
+ 
+}
+footer .links , footer .social{
+  display: inline-block;
+  margin-bottom: 20px
+}
+footer .links ul li,footer .social ul li{
+  float: left;
+  margin-right: 20px
+}
+footer .social ul{
+  margin-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+footer a{
+  color: #0069D9;
+  text-decoration: none;
+}
+footer a:hover{
+  color: #0069D9
+}
+footer p{
+  color: #fff
+}
+
+#desc, form {
+  margin-bottom: 16px;
+}
+
+
+/********************************************/
+/* Start General */
+* {
+  margin:0;
+  padding:0;
+  font-family: Tahoma;
+  box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+nav ul {
+  float: right;
+  margin-bottom: 20px;
+  text-transform: uppercase
+}
+nav ul li a {
+  color: #686565;
+  text-decoration: none;
+}
+/* End General */
+
+/* Start Navbar */
+
+nav ul > li {
+  padding: 15px;
+  display: inline-block;
+  transition: all .3s ease;
+  margin-left: -5px
+}
+nav ul > li:last-of-type {
+  float: right;
+}
+nav ul > li:last-of-type a .fa {
+  font-size: 21px
+}
+/* End Navbar */
+
+/* Start Menue Right */
+nav ul > li:last-of-type {
+  position: relative;
+  display: none
+}
+nav ul > ol {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #fff;
+  text-align: center;
+  list-style: none;
+  display: none
+}
+nav ul > ol > li {
+  width: 100vw;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all .3s ease;
+  
+}
+nav ul > ol > li:hover a {
+  margin: 20px;
+}
+nav ul > ol > li:hover {
+  cursor: pointer
+}
+nav ul input {
+  opacity: .7;
+  padding: 5px;
+  float: right;
+  display: none
+}
+/* Start Menue Right */
+
+/* Start Media Query */
+@media screen and (max-width:680px){
+  nav ul > li:not(:first-child) {
+    display:none
+  }
+  nav ul > li:last-of-type {
+    display: block
+  }
+  nav ul input {
+    display: inline
+  }
+}
+@media screen and (min-width:680px) {
+  nav ul > ol > li {
+    display:none
+  }
+}
+/* End Media Query */
+
+
+/**************************************************************/
+.payment .payment-holder .myContainer .second-section .box  .img{
+  position: relative;
+}
+.payment .payment-holder .myContainer .second-section .box  .img .myNumbers{
+  width: 20px;
+  height: 20px;
+  background-color:#787272;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0 6px;
+  font-size: 14px;
+  margin: -7px;
+  position: absolute
+}
+
+.error{
+  display: none;
+  
+}
+#Emailerror,#Lnameerror,#Fnameerror,#Addresserror,#Cityerror,#Ziperror,#Phoneerror,#Selecterror{
+    margin-top: -8px;
+    color: red;
+    display: none
+}
+
+#Checkerror{
+  margin-top: 6px;
+  color: red;
+  display: none
+}
+#Emailerror{
+  margin-top: 9px;
+  margin-bottom: -22px;
+}
+#myButton{
+    display: none;
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+    background-color: #333;
+    color: #fff;
+    height: 37px;
+    width: 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#Phoneerror{
+    ma
+}

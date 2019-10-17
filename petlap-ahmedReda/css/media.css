@@ -1,0 +1,97 @@
+@media only screen and (max-width: 600px){
+        .payment .payment-holder .second-section{
+            margin-bottom: 33px;
+            float: none;
+            width: 100%
+    }
+    .payment .payment-holder hr{
+        width: 41.99%;
+    }
+    .payment .payment-holder .first-section p{
+        display: none
+    }
+    .payment .payment-holder .paypal-button{
+        width: 100%;
+        margin-top: 30px;
+        height: 39px;
+    padding: 8px 16px;
+    margin-bottom: 10px
+    }
+    input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .myForm .myForm-holder .shoppingAddress .name >input{
+        width: 49.3%;
+        margin-right: 0
+    }
+
+    input[type="text"]{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .phone input[type="number"]{
+        width: 100%;
+      }
+
+    .divided select{
+        width: 35.9%;
+    }
+
+    .payment .payment-holder .first-section{
+        margin-bottom: 23%;
+        width: 100%;
+        float:none;
+    }
+    .phone .container {
+        margin-top: -15px;
+        font-size: 13px;
+    }    
+    .emailForm .container {
+        margin-top: 0;
+        font-size: 13px;
+    }
+    .payment .payment-holder .myContainer .first-section .last .link{
+        margin-top: -15px;
+        margin-bottom: 20px;
+    
+    }
+    .payment .payment-holder .myContainer .first-section .last .SecondLink{
+        display: block
+      }
+    footer .myContaineer{
+        padding:0 12%;
+        font-size: 13px;
+    }
+    footer .links ul li{
+        margin-right: 16px;
+        margin-bottom: 15px;
+    }
+    footer .links ul li:last-of-type{
+        margin-left: 30%;
+    }
+    footer .social ul{
+        margin-top: 0
+    }
+    h5{
+        margin-bottom: 15px;
+    }
+    .payment .payment-holder .myContainer .first-section .last .button input[type="submit"]{
+            padding: 17px 94px;
+    }
+    .payment .payment-holder .myContainer .second-section{
+        margin-top: -60px;
+    }
+    .payment .payment-holder .myContainer .first-section .last .link{
+        display:none
+    }
+    .payment .payment-holder .myContainer .second-section .box .price{
+        line-height: 10px
+    }
+    #Emailerror{
+        margin-bottom: -10px
+    }
+}
+
+
